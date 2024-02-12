@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link href="https://webfontworld.github.io/gmarket/GmarketSans.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>숫자 맞추기 게임!</h1>
-    <div id="resultArea">결과가 나온다</div>
-    <input type="number" id="userInput"/>
-    <button id="playButton">Go!</button>
-    <script src="main.js"></script>
+    <div class="container">
+        <h1 class="title">랜덤 숫자 맞추기 게임!</h1>
+        <div id="resultArea">결과가 나온다</div>
+        <div id="chanceArea"></div>
+        <div id="historyArea"></div>
+        <input type="number" id="userInput"/>
+        <button id="playButton">Go!</button>
+        <button id="resetButton">reset</button>
+        <script src="self.js"></script>
+    </div>
 </body>
 </html>
